@@ -1,0 +1,5 @@
+1. What is CDN(Content delivery network)?why?
+2. what is crossorigin attribute?why?
+3. what is react.createElement?
+4. what is ReactDOM? ReactDom.createRoot?
+5. what happen inside root.render?
