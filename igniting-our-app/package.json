@@ -1,0 +1,29 @@
+{
+  "name": "igniting-our-app",
+  "version": "1.0.0",
+  "description": "This is a basic react example with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html"
+  },
+  "keywords": [
+    "react",
+    "basic",
+    "example",
+    "basha"
+  ],
+  "author": "Alam Basha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 10 versions"
+  ]
+}

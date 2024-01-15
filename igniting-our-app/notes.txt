@@ -1,0 +1,34 @@
+1. package.json? this is configuration for npm. why do we need this?
+2. bundler?
+3. dependencies?
+4. dev-dependencies?
+5. diff btw dependencies vs dev-dependencies?
+6. caret vs tilde in package.json?
+7. package-lock.json? package.json vs package-lock.json?
+8. transitive dependencies?
+9. .gitignore?
+10. If we have package.json or package-lock.json, we will recreate our node modules?
+11. npx? npx vs npm?
+12. react & react-dom using cdn is not preferrable? install using npm.
+13. react-dom vs react-dom/client?
+14. HMR?
+15. file watching algo
+16. Parcel
+    1. Dev build
+    2. local server
+    3. HMR
+    4. file watching algo
+    5. chaching - faster builds
+    6. Image optimization
+    7. Minification
+    8. Bundling
+    9. compression
+    10. Consistent hashing
+    11. code splitting
+    12. Differential Bundling - support older browsers
+    13. Diagnostic
+    14. Error handling
+    15. HTTPs
+    16. Tree shaking - remove unused code
+    17. Diff build for Dev and Prod
+17. browserslist
