@@ -1,0 +1,16 @@
+1. JSX? is JSX same as html? JSX vs html?
+2. Js vs JSX? can js-engine/browser understand jsx?
+3. how jsx transpiled to js?
+4. what is babel?
+5. React.createElement ==> React element(Js object) ==> HTMLElement(render)
+6. JSX ==> React.createElement ==> React element(Js object) ==> HTMLElement(render)
+7. babel is transpiling JSX to React.createElement.
+8. babel transpils the es6 code to old js code that old browsers dont understand es6.
+9. JSX attributes should be in camelCase.
+10. React element is Js object
+11. What is component?
+12. class based component?
+13. functional component?
+14. react functional component is a js function, that returns the jsx/react-element.
+15. how jsx sanitize js inside it.
+16. 
