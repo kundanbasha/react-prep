@@ -1,0 +1,21 @@
+1. Plan before start development. plan means explore about the project and design.
+2. build wireframes of a project.
+3. findout the components in components
+   Header
+    - Logo
+    - Nav items
+   Body
+    - Search
+    - RestaurentContainer
+      - Restaurent card
+   Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
+4. what are props?
+5. passing a props to component is nothing but passing argument to a function.
+6. what is config-driven ui?
+7. why do have to use a key while iterating a list? ref: https://legacy.reactjs.org/docs/reconciliation.html#recursing-on-children
+8. never use index as key, why? ref: https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/
+9. 
