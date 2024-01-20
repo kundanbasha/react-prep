@@ -1,3 +1,4 @@
+// talk is cheap, show me the code
 1. Plan before start development. plan means explore about the project and design.
 2. build wireframes of a project.
 3. findout the components in components
@@ -18,4 +19,27 @@
 6. what is config-driven ui?
 7. why do have to use a key while iterating a list? ref: https://legacy.reactjs.org/docs/reconciliation.html#recursing-on-children
 8. never use index as key, why? ref: https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/
-9. 
+
+// Lets get hooked
+1. Separate files for separate components --> best practice in industry
+2. There is specific folder structure to follow, it's up to developers.
+3. Never ever create hardcoded data inside component, keep it in separate file or folder.
+4. Two types of exports, default export and named export.
+5. Module can't have multiple default exports.
+6. Can I use named export along with default export?
+7. Hooks are nothing but normal js utility functions. eg: useState(), useEffect()
+8. local state variable: scope of the variable is inside that component/funtion.
+9. react will make the dom operations super fast and efficient.
+10. in react Ui layer is synced with the data layer, when ever any change happens in the state variable, it will re-render the component.
+11. what is reconciliation algorithm? it is also know as react-fiber.
+12. react uses reconciliation algo.
+13. what is virtual dom?
+14. virtual dom is a representation of actual dom.
+15. virtual dom is nothing but a normal js object.
+16. what is diff algo?
+17. react find out the difference bwtween two virtual doms using diff algo and update the dom.
+18. what is react-fiber? ref: https://github.com/acdlite/react-fiber-architecture
+19. what react is so fast? because it is doing efficient dom manupulations.
+20. useState returns an array. eg: const arr=useState();
+21. whenever we trigger/call arr[1] react starts the diff algo and re-render the component;
+22. 
