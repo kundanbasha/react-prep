@@ -42,4 +42,50 @@
 19. what react is so fast? because it is doing efficient dom manupulations.
 20. useState returns an array. eg: const arr=useState();
 21. whenever we trigger/call arr[1] react starts the diff algo and re-render the component;
-22. 
+
+// Exploring the world
+1. what is Monolith architecture?
+2. what is micro-service architecture?
+3. Monolith vs micro-service?
+4. Single responsibility principle?
+5. Seperation of concerns?
+6. how services will interact with each other in micro-service architecture?
+7. two ways we usually follow to fetch the data and render the ui.
+   i. Page loads --> API(takes 500ms) --> Render Ui
+   ii. Page loads --> Render(skeleton or any data we have) --> API(takes 500ms) --> Render Ui
+8. useEffect is nothing but a normal js function.
+9. useEffect callback will be called after component renders.
+10. What is CORS policy? browser will block if we have a origin mismatch. ref: https://www.youtube.com/watch?v=tcLW5d0KAYE&ab_channel=AkshaySaini
+11. what is Optional chaining?
+12. what is condition rendering?
+13. Ternary operator?
+14. Why we use react state variable instead normal js variable?
+15. https://corsproxy.io/
+16.
+
+//Finding the path
+1. react-router-dom?
+2. createBrowserRouter takes all the possible routes in a list of objects.
+3. each object indicates a page, which takes a path, element, exact properties
+4. to render all the rounder on the browsers, react router dom gives a component called RouterProvider.
+5. useRouteError is given by react-router-dom. which gives more details about the error.
+6. don't use <a></a> tag to navigate when we have react-router-dom, because <a></a> reloads the whole page while navigate.
+7. use <Link/> component instead of <a></a>, because Link component don't reload the page, it just refresh/changes the component.
+8. what is SPA(single page application)?
+9. Two types of routing, Client side routing and server side routing.
+10. useParams given by react-router-dom, to capture params from url.
+11. ErrorElement in react-router-dom?
+
+//Bonus: useMemo, useCallaback and useRef
+1. useMemo: 
+
+//optimizing your application
+1. use custom hooks to make our code reusable, maintable and testable.
+2. use custom hooks to reuse component state logic in a separate function and use it whereever it requires.
+3. code splitting/chunking/dynamic import/on demand loading/lazy loading/dynamic bundling
+4. lazy function from react.
+5. Suspence componet of react.
+
+//Data is the new oil 
+1. what are Higher order components(HOC)?
+2. 
