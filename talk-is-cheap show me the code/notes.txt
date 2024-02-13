@@ -42,6 +42,10 @@
 19. what react is so fast? because it is doing efficient dom manupulations.
 20. useState returns an array. eg: const arr=useState();
 21. whenever we trigger/call arr[1] react starts the diff algo and re-render the component;
+22. What is the difference between Named Export, Default export and * as export?
+23. What is the importance of config.js file
+24. What are React Hooks?
+25. Why do we need a useState Hook?
 
 // Exploring the world
 1. what is Monolith architecture?
@@ -61,7 +65,15 @@
 13. Ternary operator?
 14. Why we use react state variable instead normal js variable?
 15. https://corsproxy.io/
-16.
+16. Why do we need a useEffect Hook?
+17. What is the difference between JS expression and JS statement
+18. What is Conditional Rendering, explain with a code example
+19. What is CORS?
+20. What is async and await?
+21. What is the use of `const json = await data.json();` in getRestaurants()
+22. Make Search functionality work with debounce and throttling
+23. Make a Login Logout button which toggles with a state
+24. debounce vs throttling?
 
 //Finding the path
 1. react-router-dom?
@@ -75,6 +87,19 @@
 9. Two types of routing, Client side routing and server side routing.
 10. useParams given by react-router-dom, to capture params from url.
 11. ErrorElement in react-router-dom?
+12. What are various ways to add images into our App? Explain with code examples
+13. What would happen if we do console.log(useState())?
+14. How will useEffect behave if we don't add a dependency array ?
+15. What is difference between Client Side Routing and Server Side Routing?
+16. Add Shimmer Effect without installing a library
+17. Create a appRouter and Provide it to the app
+18. Create a Home, About, Contact Page with Link (use child routes)
+19. Make a Error page for routing errors
+20. Create a Restaurant Page with dynamic restaurant ID
+21. (Extra) - Create a login Page using Formik Library
+22. Client Side Routing - https://reactrouter.com/en/main/start/overview
+23. React Router DOM - https://reactrouter.com/en/main
+24. Formik - https://formik.org/
 
 //Bonus: useMemo, useCallaback and useRef
 1. useMemo: 
@@ -85,7 +110,67 @@
 3. code splitting/chunking/dynamic import/on demand loading/lazy loading/dynamic bundling
 4. lazy function from react.
 5. Suspence componet of react.
+6. When and why do we need lazy()?
+7. Why we got this error : A component suspended while responding to
+synchronous input. This will cause the UI to be replaced with a loading indicator.
+To fix, updates that suspend should be wrapped with startTransition? How does
+suspense fix this error?
+8. Advantages and disadvantages of using this code splitting pattern?
+9. When do we and why do we need suspense?
+10. Create your custom hooks
+11. Try out lazy and suspense
+12. Make your code clean.
 
 //Data is the new oil 
 1. what are Higher order components(HOC)?
-2. 
+2. Important: Lifting the state up: https://react.dev/learn/sharing-state-between-components
+3. two layers
+   1. UI layer: JSX
+   2. data layer: state, props
+4. react-dev-tools
+   1. components: ui layer, data layer
+   2. profiler
+5. learn with lifting the state up with example
+6. props drilling: https://react.dev/learn/passing-data-deeply-with-context
+7. react context
+8. useContext hook?
+9. nested contexts
+10. What is Context Provider and Context Consumer?
+11. If you don’t pass a value to the provider does it take the default value?
+12. Practice React Context with code examples
+13. Try out Nested Contexts
+
+//Lets build our store
+1. Redux is not mandatory in every project.
+2. Redux is not a part of react.
+3. Usually redux required in small project.
+4. zustand
+5. redux gives more advantage in large scale applications
+6. redux dev tools
+7. what is redux store?
+8. expain slice?
+9. expalin dispatcher?
+10. explain an action?
+11. explain reducer?
+12. when we click on a button, it dispatch an action, which calls a reducer funtion, which update the slice of a redux store.
+13. explain selector?
+14. we use a selector, to read the from store and update in the ui.
+15. subscribing to the store. subscribing using selector.
+16. install react-redux, @reduxjs/toolkit
+17. build our store
+18. connect store to our app
+19. slice
+20. dispatch(action)
+21. selector
+22. subscribing right portion of the store using selector for better performance
+23. immer library
+24. how to make a immutable object, deep nested object immutable object.
+25. what is proxy object?
+26. current function in toolkit?
+27. what is RTK query?
+28. learn each and every button redux dev tools?
+29. redux thunk, redux saga middlewares.
+30. useContext vs Redux
+31. Advantage of using Redux Toolkit over Redux.
+32. Explain createSlice and the configuration it takes
+33. Practice making a store, slices and do read and write operations using Redux Store
